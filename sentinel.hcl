@@ -1,7 +1,7 @@
 module "tfplan-functions"{
   source = "./tfplan-functions.sentinel"
 }
-module "azure-functions"{
+module "aws-functions"{
   source = "./aws-functions.sentinel"
 }
 policy "enforce-mandatory-tags" {
