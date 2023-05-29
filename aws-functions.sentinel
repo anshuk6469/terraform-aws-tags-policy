@@ -1,7 +1,7 @@
 # Common functions for use with the AWS provider
 
 ##### Imports #####
-import "tfconfig-functions" as config
+import "./tfconfig-functions" as config
 import "tfplan/v2" as tfplan
 import "tfconfig/v2" as tfconfig
 import "strings"
